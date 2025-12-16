@@ -1,0 +1,30 @@
+HEALTH MONITORING SCHEDULING REPORT - 2025-12-12
+====================================================
+
+=== FCFS Scheduling (Patients in order of first arrival) ===
+Patient ID | Name           | Burst (records) | Start | End | Turnaround | Waiting
+-----------+----------------+-----------------+-------+-----+------------+--------
+       P001 | John Doe       |               3 |     0 |   3 |          3 |      0
+       P002 | Jane Smith     |               3 |     3 |   6 |          6 |      3
+       P003 | Robert Brown   |               2 |     6 |   8 |          8 |      6
+       P004 | Alice Green    |               2 |     8 |  10 |         10 |      8
+
+=== SJF Scheduling (Patients with fewest records first) ===
+Patient ID | Name           | Burst (records) | Start | End | Turnaround | Waiting
+-----------+----------------+-----------------+-------+-----+------------+--------
+       P003 | Robert Brown   |               2 |     0 |   2 |          2 |      0
+       P004 | Alice Green    |               2 |     2 |   4 |          4 |      2
+       P001 | John Doe       |               3 |     4 |   7 |          7 |      4
+       P002 | Jane Smith     |               3 |     7 |  10 |         10 |      7
+
+=== Priority Scheduling (Urgent patients first) ===
+Patient ID | Name           | Priority | Burst (records) | Start | End | Turnaround | Waiting
+-----------+----------------+----------+-----------------+-------+-----+------------+--------
+       P003 | Robert Brown   |        2 |               2 |     0 |   2 |          2 |      0
+       P004 | Alice Green    |        3 |               2 |     2 |   4 |          4 |      2
+       P001 | John Doe       |        3 |               3 |     4 |   7 |          7 |      4
+       P002 | Jane Smith     |        3 |               3 |     7 |  10 |         10 |      7
+
+=== Round Robin Scheduling (Time Quantum = 2 records) ===
+Patient ID | Name           | Remaining | Time Executed | Completion | Turnaround | Waiting
+-----------+----------------+-----------+--------------+-----------+-----------+--------

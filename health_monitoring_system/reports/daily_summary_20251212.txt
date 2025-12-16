@@ -1,0 +1,15 @@
+DAILY PATIENT VITALS SUMMARY - 2025-12-12
+==========================================
+
+AVERAGE VITALS BY PATIENT
+-----------------------
+Patient ID Name                 Avg HR       Avg BP       Avg Temp   Avg SpO2   Status    
+--------------------------------------------------------------------------------
+P001       John Doe             72.3         120/79       98.6       98.3       NORMAL    
+P002       Jane Smith           86.3         131/86       98.5       95.7       NORMAL    
+P003       Robert Brown         91.0         141/91       99.0       93.5       WARNING   
+P004       Alice Green          66.5         114/74       98.3       97.5       NORMAL    
+
+HIGH-RISK PATIENTS
+------------------
+Patient ID: P003, Name: Robert Brown, Avg HR: 91.00, Avg BP: 141.00/91.00, Avg Temp: 99.05, Avg SpO2: 93.50 (Status: WARNING)

@@ -1,0 +1,5 @@
+patient_id,patient_name,entry_count,avg_hr,avg_sys,avg_dia,avg_temp,avg_spo2,status,first_timestamp
+P001,John Doe,3,72.33,120.00,79.00,98.60,98.33,NORMAL,2025-12-07T08:00:00
+P002,Jane Smith,3,86.33,131.00,86.00,98.50,95.67,NORMAL,2025-12-07T08:05:00
+P003,Robert Brown,2,91.00,141.00,91.00,99.05,93.50,WARNING,2025-12-07T08:10:00
+P004,Alice Green,2,66.50,114.50,74.50,98.35,97.50,NORMAL,2025-12-07T08:15:00
